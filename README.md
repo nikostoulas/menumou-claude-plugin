@@ -9,7 +9,7 @@ Claude to the Menumou MCP server at `https://menumou.eu/mcp`; there is no build 
 In Claude Code:
 
 ```
-/plugin marketplace add <github-owner>/<repo>
+/plugin marketplace add nikostoulas/menumou-claude-plugin
 /plugin install menumou@menumou
 ```
 

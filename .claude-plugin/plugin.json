@@ -8,6 +8,7 @@
     "url": "https://menumou.eu/en"
   },
   "homepage": "https://menumou.eu/en",
+  "repository": "https://github.com/nikostoulas/menumou-claude-plugin",
   "license": "MIT",
   "keywords": ["restaurant", "menu", "qr-menu", "prices", "hospitality"],
   "icon": "./assets/logo.png",
