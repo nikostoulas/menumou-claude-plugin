@@ -1,0 +1,15 @@
+{
+  "name": "menumou",
+  "description": "The official Menumou plugin for Claude.",
+  "owner": {
+    "name": "Kimvix L.P.",
+    "url": "https://menumou.eu/en"
+  },
+  "plugins": [
+    {
+      "name": "menumou",
+      "source": "./",
+      "description": "Manage your Menumou restaurant menus from Claude: list menus, search products, change prices, and add or remove products."
+    }
+  ]
+}

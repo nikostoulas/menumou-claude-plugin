@@ -1,0 +1,29 @@
+{
+  "name": "menumou",
+  "displayName": "Menumou",
+  "version": "1.0.0",
+  "description": "Manage your Menumou restaurant menus from Claude: list menus, search products, change prices, and add or remove products.",
+  "author": {
+    "name": "Kimvix L.P.",
+    "url": "https://menumou.eu/en"
+  },
+  "homepage": "https://menumou.eu/en",
+  "license": "MIT",
+  "keywords": ["restaurant", "menu", "qr-menu", "prices", "hospitality"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://menumou.eu/plugins?l=en",
+  "supportUrl": "https://menumou.eu/en#contact",
+  "privacyPolicyUrl": "https://menumou.eu/privacy-policy?l=en",
+  "termsOfServiceUrl": "https://menumou.eu/terms-of-service",
+  "mcpServers": {
+    "menumou": {
+      "type": "http",
+      "url": "https://menumou.eu/mcp",
+      "oauth": {
+        "clientId": "menumou-claude",
+        "callbackPort": 47823,
+        "scopes": "menu:read menu:write"
+      }
+    }
+  }
+}
